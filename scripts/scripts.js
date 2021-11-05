@@ -22,8 +22,6 @@ const board = createBoard(BOARD_WIDTH, BOARD_HEIGHT, MINE_COUNT);
 const boardElement = document.querySelector('.board');
 const messageElement = document.querySelector('.message');
 
-// console.log(board);
-
 boardElement.style.setProperty('--width', BOARD_WIDTH);
 boardElement.style.setProperty('--height', BOARD_HEIGHT);
 
